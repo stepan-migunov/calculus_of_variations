@@ -101,7 +101,7 @@
 \series bold
 Задача о брахистохроне (1696)
 \series default
- - задача нахождения кривой наибыстрешейго пути (наименьшего времени).
+ - задача нахождения кривой наибыстрейшего пути (наименьшего времени).
  Хотим построить желоб между двумя точками так, чтобы маленькое тяжелое
  тело, сползая по этому желобу под действием силы тяжести (при условии отсутстви
 и начальной скорости) достигло бы конечной точки за наименьшее время.
@@ -146,7 +146,7 @@ T=\int_{0}^{T}\mathrm{d}t=\underset{l}{\int}\dfrac{\mathrm{d}s}{v}
 \begin_inset Formula $\mathrm{d}s=\sqrt{1+u'\left(x\right)^{2}}\mathrm{d}x$
 \end_inset
 
-, а скорость приобретается засчет силы тяжести.
+, а скорость приобретается за счет силы тяжести.
  Справедлив закон сохранения энергии: 
 \begin_inset Formula 
 \[
@@ -209,7 +209,7 @@ T=\int_{0}^{x^{0}}\dfrac{\sqrt{1+u'\left(x\right)^{2}}\mathrm{d}x}{\sqrt{2gu\lef
 \begin_inset Formula $u\left(x\right)$
 \end_inset
 
- - высота соответсвующего 
+ - высота соответствующего 
 \begin_inset Quotes rld
 \end_inset
 
@@ -285,7 +285,7 @@ X=C^{1}\left[a,b\right],\,\left\Vert u\right\Vert _{C^{1}\left[a,b\right]}=\unde
 \begin_inset Formula $M\subset C^{1}$
 \end_inset
 
- - афинное подпространство: 
+ - аффинное подпространство: 
 \begin_inset Formula 
 \[
 M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
@@ -293,7 +293,7 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 
 \end_inset
 
-В вышеприведенных задачах афинный сдвиг - условие того, что 
+В вышеприведенных задачах аффинный сдвиг - условие того, что 
 \begin_inset Formula $u\left(a\right)=u_{a},\:u\left(b\right)=u_{b}$
 \end_inset
 
@@ -319,7 +319,7 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 \begin_inset Formula $u_{0}$
 \end_inset
 
- - локальный минимум (для максимума рассуждения аналогичные) ? Это в точночти
+ - локальный минимум (для максимума рассуждения аналогичные) ? Это в точности
  означает, что 
 \begin_inset Formula 
 \[
@@ -449,7 +449,7 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 \series default
 .
  Ясно, что дифференциал Фреше является дифференциалом Гато.
- Обатное, вообще говоря, неверно: 
+ Обратное, вообще говоря, неверно: 
 \begin_inset Formula 
 \[
 \mathfrak{I}\left(u\right)\coloneqq\left\Vert u\right\Vert ^{2}\cdot g\left(\dfrac{u}{\left\Vert u\right\Vert }\right)
@@ -586,7 +586,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-Все это время мы работали с функционалами, заданными на афинном подпространстве.
+Все это время мы работали с функционалами, заданными на финном подпространстве.
  Ясно, что функционал, заданный на всем пространстве 
 \begin_inset Formula $X$
 \end_inset
@@ -621,7 +621,7 @@ status open
 .
  Однако, для граничных точек данное включение неверно.
  Для них (в случае поиска минимума) производная функционала должна быть
- просто неотрицательной (неположительной для точек максимума).
+ просто неотрицательной (не положительной для точек максимума).
  Выпуклость нам пригождается, когда мы ищем допустимые приращения 
 \begin_inset Formula $h$
 \end_inset
@@ -835,7 +835,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-Рассмотрим ситуацию, когда афинное подпространство выделяется двумя граничными
+Рассмотрим ситуацию, когда аффинное подпространство выделяется двумя граничными
  условиями.
 \begin_inset Newline newline
 \end_inset
@@ -844,7 +844,7 @@ status open
 \begin_inset Formula $M$
 \end_inset
 
- - афинное подпространство 
+ - аффинное подпространство 
 \begin_inset Formula 
 \[
 u\in M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\,u\left(b\right)=u_{b}\right\} 
@@ -1426,7 +1426,7 @@ M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\:u\left(b
 \begin_inset Formula $\left(\eqqcolon\text{вариации}\right)$
 \end_inset
 
- - такие, которые не выводят из афинного подпространства 
+ - такие, которые не выводят из аффинного подпространства 
 \begin_inset Formula $M$
 \end_inset
 
@@ -1590,11 +1590,7 @@ u=\sin t
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1614,10 +1610,6 @@ status collapsed
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1630,7 +1622,7 @@ status collapsed
 
  .
  Формула дифференциала не поменялась, зато поменялись условия на допустимые
- прирращения: 
+ приращения: 
 \begin_inset Formula 
 \[
 \begin{array}[t]{l}
