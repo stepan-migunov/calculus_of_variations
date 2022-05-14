@@ -6,6 +6,9 @@
 \origin unavailable
 \textclass article
 \use_default_options true
+\begin_modules
+theorems-std
+\end_modules
 \maintain_unincluded_children false
 \language russian
 \language_package default
@@ -481,11 +484,10 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 \end_inset
 
 
-\series bold
-Теорема
-\series default
-.
- 
+\end_layout
+
+\begin_layout Theorem
+
 \emph on
 Пусть функционал 
 \begin_inset Formula $\mathfrak{I}\left(u\right)$
@@ -873,13 +875,8 @@ u\in M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\,u\l
  две заданные точки.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proposition
 
-\series bold
-Предложение 1
-\series default
-.
- 
 \emph on
 Пусть 
 \begin_inset Formula $F$
@@ -953,13 +950,8 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proposition
 
-\series bold
-Предложение 2
-\series default
-.
- 
 \emph on
 Пусть сама 
 \begin_inset Formula $F$
@@ -1129,13 +1121,7 @@ status open
 Основные леммы вариационного исчисления
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Лемма 1
-\series default
-.
- 
+\begin_layout Lemma
 \begin_inset Formula 
 \[
 \forall f\left(x\right)\in\mathcal{C}\left[a,b\right]\quad\underset{h\left(a\right)=h\left(b\right)=0}{\underbrace{\forall h\left(x\right)\in\mathcal{\mathcal{C}}_{0}^{\infty}\left(a,b\right)}}\quad\int_{a}^{b}f\left(x\right)\cdot h\left(x\right)\mathrm{d}x=0\;\Rightarrow\;f\equiv0
@@ -1222,20 +1208,12 @@ status open
 \end_inset
 
 
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 
 \series bold
-Лемма 2 (Дюбуа-Раймона,
-\series default
- 
-\series bold
-одномерный случай)
+Лемма Дюбуа-Раймона (одномерный случай)
 \series default
 .
 \begin_inset Formula 
@@ -1310,10 +1288,6 @@ g'=f
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Интеграл от произведения 
 \begin_inset Formula $g\psi$
 \end_inset
@@ -1335,7 +1309,7 @@ g'=f
 
 \end_inset
 
-По предыдущей лемме 
+По лемме 4 
 \begin_inset Formula $g\equiv c$
 \end_inset
 
@@ -1468,8 +1442,7 @@ L=\left\{ h\in\mathcal{C}^{1}\left[a,b\right]:\:h\left(a\right)=h\left(b\right)=
  Рассмотрим случаи, когда оно явно интегрируется.
 \end_layout
 
-\begin_layout Subsubsection*
-Случай 1, 
+\begin_layout Case
 \begin_inset Formula $F$
 \end_inset
 
@@ -1477,11 +1450,7 @@ L=\left\{ h\in\mathcal{C}^{1}\left[a,b\right]:\:h\left(a\right)=h\left(b\right)=
 \begin_inset Formula $u$
 \end_inset
 
-:
-\end_layout
-
-\begin_layout Standard
-Тогда 
+:Тогда 
 \begin_inset Formula $F_{u}\left(x,u\left(x\right),u'\left(x\right)\right)=0=\dfrac{\mathrm{d}}{\mathrm{d}x}F_{z}\left(x,u\left(x\right),u'\left(x\right)\right)\:\Rightarrow\:F_{z}\left(x,u'\left(x\right)\right)=const$
 \end_inset
 
@@ -1490,8 +1459,7 @@ L=\left\{ h\in\mathcal{C}^{1}\left[a,b\right]:\:h\left(a\right)=h\left(b\right)=
  импульса в физике.
 \end_layout
 
-\begin_layout Subsubsection*
-Случай 2, 
+\begin_layout Case
 \begin_inset Formula $F$
 \end_inset
 
@@ -1499,11 +1467,7 @@ L=\left\{ h\in\mathcal{C}^{1}\left[a,b\right]:\:h\left(a\right)=h\left(b\right)=
 \begin_inset Formula $x$
 \end_inset
 
-:
-\end_layout
-
-\begin_layout Standard
-Интеграл не зависит явно от 
+: интеграл не зависит явно от 
 \begin_inset Quotes rld
 \end_inset
 
@@ -1577,16 +1541,11 @@ u=\sin t
 
 \end_inset
 
-Где кривая проходит через точку 
-\begin_inset Formula $\left(0,0\right)$
+ 
+\begin_inset Newpage pagebreak
 \end_inset
 
-, откуда мгновенно 
-\begin_inset Formula $C_{1}=0$
-\end_inset
 
-.
- Кривая, задаваемая этой системой называется циклоидой:
 \begin_inset Float figure
 wide false
 sideways false
@@ -1613,10 +1572,25 @@ status open
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+Кривая проходит через точку 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+, откуда мгновенно 
+\begin_inset Formula $C_{1}=0$
+\end_inset
+
+.
+ Кривая, задаваемая этой системой называется циклоидой: см.
+ рисунок 1.
 \end_layout
 
 \begin_layout Standard
-Попробуем уменьшить количество граничных условий и обойтись только 
+Попробуем теперь уменьшить количество граничных условий и обойтись только
+ 
 \begin_inset Formula $u\left(a\right)=u_{a}$
 \end_inset
 
@@ -1641,11 +1615,212 @@ status open
 \begin_inset Formula $\mathcal{C}_{0}^{\infty}\left(a,b\right)$
 \end_inset
 
- он равен нулю и подавно, а тогда тем более 
+ он равен нулю и подавно, а тогда тем более по лемме Дюбуа-Раймона 
 \begin_inset Formula $\dfrac{\mathrm{d}}{\mathrm{d}x}F_{z}\left(x,u,u'\right)=F_{u}\left(x,u,u'\right)$
 \end_inset
 
+.
+ Благодаря чему становится возможным проинтегрировать по частям второе слагаемое
+ в интеграле:
+\begin_inset Formula 
+\[
+\mathrm{d}\mathfrak{I}\left(u\right)h=\int_{a}^{b}\underset{\left(F_{u}-\frac{\mathrm{d}}{\mathrm{d}t}F_{z}\right)h=0\cdot h}{\underbrace{\left(F_{u}\left(x,u,u'\right)h-h\cdot\dfrac{\mathrm{d}}{\mathrm{d}x}F_{z}\left(x,u,u'\right)\right)}}\mathrm{d}x+\left.h\cdot F_{z}\left(x,u\left(x\right),u'\left(x\right)\right)\right|_{x=a}^{\mathord{x=b}}=0
+\]
 
+\end_inset
+
+
+\begin_inset Formula 
+\[
+h\left(b\right)\cdot F_{z}\left(x,u\left(b\right),u'\left(b\right)\right)=0
+\]
+
+\end_inset
+
+В силу произвольности 
+\begin_inset Formula $h\left(b\right)$
+\end_inset
+
+ получаем 
+\series bold
+естественное граничное условие 
+\series default
+
+\begin_inset Formula $F_{z}\left(x,u\left(b\right),u'\left(b\right)\right)=0$
+\end_inset
+
+.
+ Если же теперь и вовсе не требовать 
+\begin_inset Quotes rld
+\end_inset
+
+закрепления
+\begin_inset Quotes rrd
+\end_inset
+
+ концов функции 
+\begin_inset Formula $u\left(x\right)$
+\end_inset
+
+, то аналогичными рассуждениями получаем не одно, а целых два 
+\emph on
+естественных граничных условия
+\emph default
+:
+\begin_inset Formula 
+\[
+\begin{array}{c}
+F_{z}\left(x,u\left(b\right),u'\left(b\right)\right)=0\\
+F_{z}\left(x,u\left(a\right),u'\left(a\right)\right)=0
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+О гладкости решения уравнения Эйлера
+\end_layout
+
+\begin_layout Standard
+Оказывается, что если потребовать чуть больше условий от 
+\begin_inset Formula $F$
+\end_inset
+
+, можно 
+\begin_inset Quotes rld
+\end_inset
+
+за бесплатно
+\begin_inset Quotes rrd
+\end_inset
+
+ получить необходимые условия для 
+\begin_inset Formula $u$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proposition
+Пусть 
+\begin_inset Formula $F\in\mathcal{C}^{2},\:\forall\left(x,y,z\right):\;F_{zz}\neq0$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+ - решение уравнения Эйлера.
+ Тогда 
+\begin_inset Formula $u\in\mathcal{C}^{2}\left[a,b\right]$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Доказательство:
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+F_{z}\left(x,u\left(x\right),u'\left(x\right)\right)=\underset{f\left(x\right)\in\mathcal{C}^{1}\left[a,b\right]}{\underbrace{\int_{a}^{x}F_{u}\left(t,u\left(t\right),u'\left(t\right)\right)\mathrm{d}t+c}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varPhi\left(x,z\right):=F_{z}\left(x,u\left(x\right),z\right)-f\left(x\right)\left(\equiv0,\,\text{когда}\,z=u'\left(x\right)\right)
+\]
+
+\end_inset
+
+Для произвольной 
+\begin_inset Formula $x^{0}\in\left(a,b\right)$
+\end_inset
+
+ уравнение 
+\begin_inset Formula $\varPhi\left(x^{0},u'\left(x^{0}\right)\right)=0$
+\end_inset
+
+ выполнено, а 
+\begin_inset Formula $\varPhi\in\mathcal{C}^{1}$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula 
+\[
+\varPhi_{x}=F_{zx}+F_{zu}\cdot u'-f',\;\varPhi_{z}=F_{zz}
+\]
+
+\end_inset
+
+А по теореме о дифференцировании неявно заданной функции в окрестности точки
+ 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+ функция 
+\begin_inset Formula $z=x\left(x\right)\equiv u'\left(x\right)$
+\end_inset
+
+ дифференцируема.
+ Тогда 
+\begin_inset Formula $u\in\mathcal{C}^{2}\left(a,b\right)$
+\end_inset
+
+.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\square$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Пример того, что просто так нельзя убрать условие 
+\begin_inset Formula $F_{zz}\neq0$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\mathfrak{I}\left(u\right)=\varint_{-1}^{1}u^{2}\left(u'-2x\right)^{2}\mathrm{d}x
+\]
+
+\end_inset
+
+Тогда фукнция 
+\begin_inset Formula $u=\begin{cases}
+x^{2} & x>0,\\
+0 & x\leqslant0.
+\end{cases}$
+\end_inset
+
+ обнуляет неотрицательный функционал (=минимизирует), но не является дважды
+ непрерывно дифференцируемой.
 \end_layout
 
 \end_body
