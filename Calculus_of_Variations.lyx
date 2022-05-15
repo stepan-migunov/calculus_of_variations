@@ -503,16 +503,9 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 
 .
  Тогда это дифференциал Фреше.
-\emph default
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Доказательство
-\emph default
-: 
+\begin_layout Proof
 \begin_inset Formula $l\left(u\right)\,\text{непрерывен}\Leftrightarrow\exists C:\:\left|l\left(h\right)\right|<C\left\Vert h\right\Vert .$
 \end_inset
 
@@ -568,19 +561,6 @@ M=u_{0}+L=\left\{ u+u_{0}|\:u\in L\right\} ,\:L\leqslant X
 \[
 \left|\mathfrak{I}\left(u_{0}+h\right)-\mathfrak{I}\left(u_{0}\right)-\mathrm{d}\mathfrak{I}\left(u_{0}\right)h\right|\leqslant\int_{0}^{1}\varepsilon\left\Vert h\right\Vert \mathrm{d}t=\varepsilon\left\Vert h\right\Vert =o\left(\left\Vert h\right\Vert \right)
 \]
-
-\end_inset
-
-
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\square$
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -895,16 +875,9 @@ u\in M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\,u\l
 \end_inset
 
 
-\emph default
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Доказательство
-\emph default
-:
+\begin_layout Proof
 \begin_inset Formula 
 \[
 \forall\varepsilon\:\exists\delta:\:\left.\begin{array}{r}
@@ -916,9 +889,6 @@ u\in M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\,u\l
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \text{А тогда если взять }u_{1},u_{2}:\left\Vert u_{1}-u_{2}\right\Vert _{\mathcal{C}^{1}}<\delta\:\Rightarrow\:\left|\mathfrak{I}\left(u_{1}\right)-\mathfrak{I}\left(u_{2}\right)\right|\leqslant
@@ -931,19 +901,6 @@ u\in M=\left\{ u\in\mathcal{C}^{1}\left[a,b\right]:\:u\left(a\right)=u_{a},\,u\l
 \[
 \leqslant\int_{a}^{b}\left|F\left(x,u_{1}\left(x\right),u_{1}'\left(x\right)\right)-F\left(x,u_{2}\left(x\right),u_{2}'\left(x\right)\right)\right|\mathrm{d}x<\cancel{\left(b-a\right)}\dfrac{\varepsilon}{\cancel{b-a}}
 \]
-
-\end_inset
-
-
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\square$
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -971,16 +928,10 @@ status open
 \end_inset
 
 .
-\emph default
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Доказательство
-\emph default
-: Пусть 
+\begin_layout Proof
+Пусть 
 \begin_inset Formula $u_{0},h\in\mathcal{C}^{1}\left[a,b\right]$
 \end_inset
 
@@ -1102,19 +1053,6 @@ status open
 \end_inset
 
 
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\square$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -1130,13 +1068,9 @@ status open
 \end_inset
 
 
-\emph on
-Доказательство
-\emph default
-:
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Proof
 Рассмотрим функцию 
 \begin_inset Formula $\omega\left(x\right)=\begin{cases}
 C\exp\left(\dfrac{1}{x^{2}-1}\right), & \left|x\right|<1\\
@@ -1195,25 +1129,12 @@ C\exp\left(\dfrac{1}{x^{2}-1}\right), & \left|x\right|<1\\
 .
  Тогда искомый интеграл не равен нулю.
  Противоречие.
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\square$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Lemma
 
 \series bold
-Лемма Дюбуа-Раймона (одномерный случай)
+Дюбуа-Раймона (одномерный случай)
 \series default
 .
 \begin_inset Formula 
@@ -1227,13 +1148,9 @@ g'=f
 \end_inset
 
 
-\emph on
-Доказательство
-\emph default
-: 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Proof
 1.
  Пусть 
 \begin_inset Formula $f\equiv0$
@@ -1358,19 +1275,6 @@ g'=f
 
 .
  Лемма доказана.
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Formula $\square$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1496,7 +1400,19 @@ F-u'F_{z}=const
 
 \end_inset
 
-А в таком виде можно уже 
+
+\end_layout
+
+\begin_layout Problem
+
+\emph on
+Решение задачи о брахистохроне
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+В таком виде можно уже 
 \begin_inset Quotes rld
 \end_inset
 
@@ -1541,40 +1457,10 @@ u=\sin t
 
 \end_inset
 
- 
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename resources/graph_cycloida.png
-	rotateOrigin center
-
-\end_inset
-
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Problem
 Кривая проходит через точку 
 \begin_inset Formula $\left(0,0\right)$
 \end_inset
@@ -1586,6 +1472,27 @@ status open
 .
  Кривая, задаваемая этой системой называется циклоидой: см.
  рисунок 1.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename resources/graph_cycloida.png
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+рис.
+ 1
+\end_layout
+
+\begin_layout Subsection*
+Естественные граничные условия
 \end_layout
 
 \begin_layout Standard
@@ -1673,6 +1580,169 @@ h\left(b\right)\cdot F_{z}\left(x,u\left(b\right),u'\left(b\right)\right)=0
 F_{z}\left(x,u\left(b\right),u'\left(b\right)\right)=0\\
 F_{z}\left(x,u\left(a\right),u'\left(a\right)\right)=0
 \end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+
+\emph on
+Постановка естественных граничных условий
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+Упругий, но несжимаемый стержень перпендикулярно уперт в стену одним концом.
+ На второй производится давление.
+ Начиная с какого-то момента стержень прогибается под силой давления.
+ Вопрос заключается в том, какую форму примет стержень в момент сгиба? Какова
+ критическая сила?
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Решение: 
+\emph default
+Для устойчивого равновесия необходим локальный минимум потенциальной энергии.
+ А для простого равновесия - локальный экстремум.
+ Сам стержень - одномерный объект.
+ Его полная энергия высчитывается как интеграл от удельной энергии 
+\begin_inset Formula $E=f\left(t\right)$
+\end_inset
+
+, где 
+\begin_inset Formula $f$
+\end_inset
+
+ - гладкая плотность распределения энергии, зависящая от кривизны изгиба
+ стержня в точке 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ Ясно, что 
+\begin_inset Formula $f\left(0\right)=0,\,f\left(-t\right)=f\left(t\right)\geqslant0$
+\end_inset
+
+.
+ Изгиб будем считать малым, а значит 
+\begin_inset Formula $f\left(t\right)\propto t^{2}\,\Rightarrow\,f\left(t\right)=at^{2}=u''^{2},\,a>0,\,u\in\mathcal{C}^{2}$
+\end_inset
+
+.
+ Откуда потенциальная энергия стержня в зависимости от формы высчитывается
+ как функционал:
+\begin_inset Formula 
+\[
+\Pi\left(u\right)=a\int_{0}^{1}\left(u''^{2}-\lambda u'^{2}\right)\mathrm{d}x
+\]
+
+\end_inset
+
+где 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ - нормировочный множитель для силы.
+ От константы 
+\begin_inset Formula $a$
+\end_inset
+
+ ничего существенно не меняется, поэтому рассматривать будем функционал
+ 
+\begin_inset Formula $\int_{0}^{1}\left(u''^{2}-\lambda u'^{2}\right)\mathrm{d}x\mapsto\Pi\left(u\right)$
+\end_inset
+
+.
+ Граничные условия зависят от того, как мы закрепляем стержень относительно
+ стены и 
+\begin_inset Quotes rld
+\end_inset
+
+толкающей руки
+\begin_inset Quotes rrd
+\end_inset
+
+.
+ Возможны четыре варианта закрепления стержня:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Case
+Шарнирно-шарнирное закрепление: 
+\begin_inset Formula $u\left(0\right)=u\left(1\right)=0$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula $h\left(0\right)=h\left(1\right)=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Case
+Жестко-шарнирное закрепление: 
+\begin_inset Formula $u\left(0\right)=u'\left(0\right)=u\left(1\right)=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Case
+Жестко-жесткое закрепление: 
+\begin_inset Formula $u\left(0\right)=u'\left(0\right)=u\left(1\right)=u'\left(1\right)=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Case
+Жестко-свободное закрепление: 
+\begin_inset Formula $u\left(0\right)=u'\left(0\right)=0$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Посчитаем дифференциал 
+\begin_inset Formula $\Pi$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\mathrm{d}\Pi\left(u\right)h=2\int_{0}^{1}\left(u''h''-\lambda u'h'\right)\mathrm{d}x=\left.2\left(u''h'-u'''h-\lambda u'h\right)\right|_{x=0}^{x=1}+2\int_{0}^{1}\left(\ddot{\ddot{u}}+\lambda\ddot{u}\right)h\mathrm{d}x=0
 \]
 
 \end_inset
@@ -1812,7 +1882,7 @@ status open
 
 \end_inset
 
-Тогда фукнция 
+Тогда функция 
 \begin_inset Formula $u=\begin{cases}
 x^{2} & x>0,\\
 0 & x\leqslant0.
