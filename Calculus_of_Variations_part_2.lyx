@@ -1,0 +1,1919 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-std
+theorems-sec
+\end_modules
+\maintain_unincluded_children false
+\language russian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification false
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+\begin_inset Quotes rld
+\end_inset
+
+Введение
+\begin_inset Quotes rrd
+\end_inset
+
+ в функциональный анализ
+\end_layout
+
+\begin_layout Definition
+Функционал 
+\begin_inset Formula $\mathfrak{\mathfrak{I:}\,}H\rightarrow\mathbb{R}$
+\end_inset
+
+, называется 
+\emph on
+слабо полунепрерывным снизу, 
+\emph default
+если 
+\begin_inset Formula $\forall x_{k}\rightharpoondown x:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\mathfrak{I}\left(x\right)\leqslant\underset{k}{\lim\inf}\mathfrak{I}\left(x_{k}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+Пусть 
+\begin_inset Formula $\mathfrak{I}$
+\end_inset
+
+ - выпуклый и непрерывный, тогда он слабо полунепрерывен снизу.
+\end_layout
+
+\begin_layout Proof
+
+\emph on
+\begin_inset Formula $x_{k}\rightharpoondown x$
+\end_inset
+
+ НУО 
+\begin_inset Formula $\exists\left\{ x_{r_{k}}\right\} :\;\mathfrak{I}\left(x_{r_{k}}\right)\rightarrow\underset{k}{\liminf}\mathfrak{I}\qquad x\in\overline{conv\left\{ x_{k}\right\} }\qquad\exists y_{i}\text{выпуклые комбинации\left(x_{k}\right):\ensuremath{\quad y_{i}\rightarrow x}}$
+\end_inset
+
+, тогда 
+\begin_inset Formula $\mathfrak{I}\left(y_{i}\right)\leqslant B.K.\left(x_{k}\right)\leqslant\lim\inf?+\varepsilon\Rightarrow\mathfrak{I}\left(x\right)\leqslant\underset{k}{\lim\inf}\mathfrak{I}\left(x_{k}\right)+\varepsilon.$
+\end_inset
+
+ Теорема доказана.
+\end_layout
+
+\begin_layout Definition
+
+\series bold
+\begin_inset Formula $\mathfrak{I}:\,H\rightarrow\mathbb{R}$
+\end_inset
+
+
+\series default
+ называется 
+\emph on
+коэрцитивным, 
+\emph default
+если 
+\begin_inset Formula $\left|x_{k}\right|\rightarrow\infty\Rightarrow\mathfrak{I}\left(x_{k}\right)\rightarrow+\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+
+\series bold
+(О достижимости минимума) 
+\series default
+Пусть 
+\begin_inset Formula $\mathfrak{I}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ - 
+\family default
+\series default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+слабо полунепрерывный снизу, коэрцитивный функционал на
+\shape default
+\emph default
+ 
+\begin_inset Formula $H$
+\end_inset
+
+, 
+\begin_inset Formula $M$
+\end_inset
+
+ - слабо замкнутое множество в 
+\begin_inset Formula $H$
+\end_inset
+
+, тогда 
+\begin_inset Formula $\mathfrak{I}$
+\end_inset
+
+ достигает своего наименьшего значения на множестве 
+\begin_inset Formula $M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Рассмотрим 
+\begin_inset Formula $\underset{x_{k}\in M}{\left\{ x_{k}\right\} }:\;\mathfrak{I}\left(x_{k}\right)\rightarrow\underset{M}{\inf}\mathfrak{I}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Enumerate
+В силу коэрцитивности 
+\begin_inset Formula $\left(x_{k}\right)$
+\end_inset
+
+ ограничена.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\exists x_{k_{l}}\rightharpoondown\widehat{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\widehat{x}\in M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathfrak{I}\left(\widehat{x}\right)\leqslant\liminf\mathfrak{I}\left(x_{k}\right)=\underset{M}{\inf}\mathfrak{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Пространство Cоболева.
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+Абсолютно непрерывные функции:
+\end_layout
+
+\begin_layout Definition
+Функция 
+\begin_inset Formula $u:\left[a,b\right]\rightarrow\mathbb{R}$
+\end_inset
+
+ называется 
+\emph on
+абсолютно непрерывной
+\emph default
+, если
+\begin_inset Formula 
+\[
+\forall x\in\left[a,b\right]\qquad u\left(x\right)=u\left(a\right)+\int_{a}^{x}f\left(t\right)\mathrm{d}t,\qquad f\in L_{1}\left(a,b\right)
+\]
+
+\end_inset
+
+При этом 
+\begin_inset Formula $f$
+\end_inset
+
+ называется обобщенной производной, 
+\begin_inset Formula $\mathcal{AC}\left[a,b\right]$
+\end_inset
+
+ - пространство абсолютно непрерывных на отрезке функций.
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula $u$
+\end_inset
+
+ - абсолютно непрерывна 
+\begin_inset Formula $\underset{\nLeftarrow}{\Rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $u$
+\end_inset
+
+ - непрерывна.
+ (
+\emph on
+Указание:
+\emph default
+ рассмотреть Канторову лестницу).
+\end_layout
+
+\begin_layout Proposition
+
+\series bold
+\begin_inset Formula $f\in L_{1},\;f_{k}\in\left[a,b\right]\;f_{k}\rightarrow f$
+\end_inset
+
+ в 
+\begin_inset Formula $L_{1},\;u_{k}\left(x\right)=u\left(a\right)+\int_{a}^{x}f_{k}\left(t\right)\mathrm{d}t\qquad$
+\end_inset
+
+то 
+\begin_inset Formula $u_{k}\rightrightarrows u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Quotes rld
+\end_inset
+
+Формула интегрирования по частям
+\begin_inset Quotes rrd
+\end_inset
+
+.
+ Пусть 
+\begin_inset Formula $u,\,v\in AC\left[a,b\right]$
+\end_inset
+
+ , тогда:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{a}^{b}u'v\mathrm{d}x=\left.uv\right|_{a}^{b}-\int_{a}^{b}uv'\mathrm{d}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $u,\,v$
+\end_inset
+
+ - абсолютно непрерывные, 
+\begin_inset Formula $u'=f,\,v'=g$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $f_{k},\,g_{j}\in C\left[a,b\right],\qquad f_{k}\rightarrow f,\,g_{j}\rightarrow g$
+\end_inset
+
+ в 
+\begin_inset Formula $L_{1}$
+\end_inset
+
+
+\begin_inset Formula $\qquad u_{k}\left(x\right)=u\left(a\right)+\int_{a}^{x}f_{k}\left(t\right)\mathrm{d}t,\;v_{j}$
+\end_inset
+
+ определяются аналогично
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $u_{k},v_{j}\in C^{1}\left[a,b\right]$
+\end_inset
+
+, то верна формула 
+\begin_inset Formula $\int_{a}^{b}u'_{k}v_{j}\mathrm{d}x=\left.u_{k}v_{j}\right|_{a}^{b}+\int_{a}^{b}u_{k}v'_{j}\mathrm{d}x$
+\end_inset
+
+.
+ Перейдем к пределу сначала по 
+\begin_inset Formula $k$
+\end_inset
+
+, потом по 
+\begin_inset Formula $j$
+\end_inset
+
+, так как 
+\begin_inset Formula $u_{k}\rightrightarrows u,\;v_{j}\rightrightarrows v$
+\end_inset
+
+ в 
+\begin_inset Formula $L_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Пространство Соболева на отрезке 
+\begin_inset Formula $W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Definition
+
+\series bold
+\begin_inset Formula 
+\[
+W_{2}^{1}\left(a,b\right)\coloneqq\left\{ \left.u\in AC\left[a,b\right]\right|u'\in L_{2}\left(a,b\right)\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Очевидно, что 
+\emph on
+пространство Соболева
+\emph default
+ 
+\begin_inset Formula $W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+ - линейное пространство (Упр.).
+\end_layout
+
+\begin_layout Standard
+Введем на нем скалярное произведение:
+\begin_inset Formula 
+\[
+\left(u,v\right)_{W_{2}^{1}}\coloneqq\int_{a}^{b}\left(u'v'+uv\right)\mathrm{d}x=\left(u',v'\right)_{L_{2}}+\left(u,v\right)_{L_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\Vert u\right\Vert _{W_{2}^{1}}^{2}=\left\Vert u'\right\Vert _{L_{2}}^{2}+\left\Vert u\right\Vert _{L_{2}}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proposition
+Пространство Соболева полно по норме.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $u_{k}$
+\end_inset
+
+ - последовательность Коши в 
+\begin_inset Formula $W_{2}^{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+u_{k}\;\text{ - последовательность Коши в }L_{2}\\
+u'_{k}\;\text{ - последовательность Коши в }L_{2}
+\end{array}\right.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Так как 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+ - полное, то 
+\begin_inset Formula $u_{k}\rightarrow u,\;u'_{k}\rightarrow v$
+\end_inset
+
+ в 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\underset{\overset{\downarrow\downarrow}{u\left(x\right)}}{u_{k}\left(x\right)}=\underset{\overset{\downarrow}{u\left(a\right)}}{u_{k}\left(a\right)}+\underset{\overset{\downarrow\downarrow}{\int_{a}^{x}v\left(t\right)\mathrm{d}t}}{\int_{a}^{x}u'_{k}\left(t\right)\mathrm{d}t}$
+\end_inset
+
+, то 
+\begin_inset Formula $u\left(x\right)=u\left(a\right)+\int_{a}^{x}v\left(t\right)\mathrm{d}t\Rightarrow u'=v$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\left.\begin{array}{c}
+u_{k}\rightarrow u\text{ в }L_{2}\\
+u'_{k}\rightarrow u\text{ в }L_{2}
+\end{array}\right\} \Rightarrow u_{k}\rightarrow u\text{ в }W_{2}^{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Доказали, что 
+\begin_inset Formula $W_{2}^{1}$
+\end_inset
+
+ - Гильбертово пространство.
+\end_layout
+
+\begin_layout Proposition
+Пространство Соболева сепарабельно.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\underset{u\longmapsto\left(u,u'\right)}{W_{2}^{1}\rightarrow\left(L_{2}\right)^{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $\left(L_{2}\right)^{2}$
+\end_inset
+
+ - сепарабельно.
+ Замкнутое подпространство сепарабельного пространства само сепарабельно.
+\end_layout
+
+\begin_layout Definition
+
+\series bold
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)=\left\{ \left.u\in W_{2}^{1}\left(a,b\right)\right|u\left(a\right)=u\left(b\right)=0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proposition
+Пусть 
+\begin_inset Formula $u\in\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+, то
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\int_{a}^{b}u^{2}\leqslant c\int_{a}^{b}u'^{2}\\
+\text{ (Неравенство Стеклова)}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $u\in\mathring{W}_{2}^{1},\;u'\in L_{2}$
+\end_inset
+
+ рассмотрим 
+\begin_inset Formula $f_{k}\in C\left[a,b\right],\;f_{k}\rightarrow u'\text{ в }L_{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $u_{k}\left(x\right)=\int_{a}^{x}f_{k}\left(t\right)\mathrm{d}t,\qquad u_{k}\rightrightarrows u$
+\end_inset
+
+.
+ Для этих функций справедливо неравенство Стеклова, остается перейти к пределу
+ (Упр.)
+\end_layout
+
+\begin_layout Corollary
+В 
+\begin_inset Formula $\mathring{W}_{2}^{1}$
+\end_inset
+
+ можно ввести эквивалентную норму 
+\begin_inset Formula $\left\Vert u\right\Vert _{\mathring{W}_{2}^{1}}^{2}\coloneqq\int_{a}^{b}u'^{2}\mathrm{d}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\left\Vert u\right\Vert _{\mathring{W}_{2}^{1}}^{2}\leqslant\left\Vert u\right\Vert _{W_{2}^{1}}^{2}\leqslant\left(1+c\right)\left\Vert u\right\Vert _{\mathring{W}_{2}^{1}}^{2}$
+\end_inset
+
+, где 
+\begin_inset Formula $c$
+\end_inset
+
+ - константа из неравненства Стеклова.
+\end_layout
+
+\begin_layout Definition
+
+\series bold
+\begin_inset Formula $M$
+\end_inset
+
+ - 
+\series default
+\emph on
+предкомпактно
+\emph default
+, если 
+\begin_inset Formula $\overline{M}$
+\end_inset
+
+ компактно.
+\end_layout
+
+\begin_layout Theorem
+Если 
+\begin_inset Formula $M\subset W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+ ограничено, то 
+\begin_inset Formula $M$
+\end_inset
+
+ предкомпактно в 
+\begin_inset Formula $C\left[a,b\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+В метрических пространствах (
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ в нормированных) предкомпактность равносильна тому, что из любой последовательн
+ости можно извлечь сходящуюся подпоследовательность.
+\begin_inset Formula 
+\[
+\left\{ u_{k}\right\} \;\text{ограничена в }L_{2}\Rightarrow\exists\left\{ u_{k_{n}}\right\} ,\,\widetilde{u}:\qquad u_{k_{n}}\rightrightarrows\widetilde{u}
+\]
+
+\end_inset
+
+Множество 
+\begin_inset Formula $M$
+\end_inset
+
+ предкомпактно в 
+\begin_inset Formula $C\left[a,b\right]\Leftrightarrow M$
+\end_inset
+
+ равномерно ограниченно и равностепенно непрерывно.
+ (
+\emph on
+Теорема Арцела-Асколи
+\emph default
+).
+ Для произвольных 
+\begin_inset Formula $u\in W_{2}^{1}\left(a,b\right),\,x,y\in\left(a,b\right)$
+\end_inset
+
+ верна формула Нютона-Лейбница 
+\begin_inset Formula 
+\begin{equation}
+u\left(x\right)=u\left(y\right)+\int_{y}^{x}u'\left(t\right)\mathrm{d}t\label{eq:1}
+\end{equation}
+
+\end_inset
+
+Возведем ее в квадрат и оценим сверху правую часть:
+\begin_inset Formula 
+\[
+u^{2}\left(x\right)\leqslant2u^{2}\left(y\right)+2\left(\int_{y}^{x}u'\left(t\right)\mathrm{d}t\right)^{2}\leqslant2u^{2}\left(y\right)+2\int_{a}^{b}u'^{2}\left(t\right)\mathrm{d}t\cdot\left|x-y\right|
+\]
+
+\end_inset
+
+ Второе неравенство - оценка по неравенству Коши-Буняковского.
+ Проинтегрируем по 
+\begin_inset Formula $y$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\begin{array}{l}
+\left(b-a\right)u^{2}\left(x\right)\leqslant2\int_{a}^{b}u^{2}\left(y\right)\mathrm{d}y+\left(b-a\right)^{2}\int_{a}^{b}u'^{2}\left(t\right)\mathrm{d}t\\
+\left\Vert u\right\Vert _{C\left[a,b\right]}^{2}\leqslant const\cdot\left\Vert u\right\Vert _{W_{2}^{1}\left(a,b\right)}^{2}\Rightarrow M\text{ равномерно ограниченно в }C\left[a,b\right]
+\end{array}
+\]
+
+\end_inset
+
+В 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ перенесем 
+\begin_inset Formula $u\left(y\right)$
+\end_inset
+
+ налево возведем в квадрат и оценим по неравенстчу Коши-Буняковского:
+\begin_inset Formula 
+\[
+\left|u\left(x\right)-u\left(y\right)\right|^{2}\leqslant\int_{a}^{b}u'^{2}\left(t\right)\mathrm{d}t\cdot\left|x-y\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Corollary
+\begin_inset Formula $u_{k}\rightharpoondown u$
+\end_inset
+
+ в 
+\begin_inset Formula $W_{2}^{1}\:\Rightarrow\:u_{k}\rightrightarrows u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Существует 
+\begin_inset Formula $u_{k_{l}}\rightrightarrows u$
+\end_inset
+
+.
+ Достаточно доказать это в случае 
+\begin_inset Formula $u=0$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula $u_{k}\rightarrow0,$
+\end_inset
+
+ 
+\begin_inset Formula $u_{k_{l}}\rightrightarrows v\neq0$
+\end_inset
+
+.
+ Рассмотрим функционал 
+\begin_inset Formula $\left\langle l,u_{k}\right\rangle =\int_{a}^{b}v\cdot u_{k}$
+\end_inset
+
+, он, очевидно, не сходится к 
+\begin_inset Formula $0$
+\end_inset
+
+, противоречие, тогда 
+\begin_inset Formula $u_{k_{l}}\rightrightarrows0$
+\end_inset
+
+.
+ Докажем что к 
+\begin_inset Formula $0$
+\end_inset
+
+ сходится вся последовательность.
+ Пусть это не так, тогда существует подпоследовательность, которая по равномерно
+й норме отделена от 0.
+ Поскольку эта подпоследовательность слабо сходится к 0, то для нее можно
+ провести аналогичные рассуждения и получить, что существует подподпоследователь
+ность, сходящаяся к 
+\begin_inset Formula $0$
+\end_inset
+
+ равномерно.
+ То есть мы знаем, что все, что сойдется, сойдется к 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ Значит 
+\begin_inset Formula $u_{k}\rightrightarrows0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Примеры слабо замкнутых множеств в 
+\begin_inset Formula $W_{2}^{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\{ u\in W_{2}^{1}\left(a,b\right)\left|u\left(c\right)=\alpha,c\in\left[a,b\right]\right.\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Можем зафиксировать не одну точку, а конечное число.
+ В частности 
+\begin_inset Formula $\mathring{W}_{2}^{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\{ u\in W_{2}^{1}\left(a,b\right)\left|\int_{a}^{b}u\cdot\widehat{u}=0,\widehat{u}\in L_{2}\right.\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\{ u\in W_{2}^{1}\left(a,b\right)\left|\int_{a}^{b}\left|u\right|^{q}=c\right.\right\} \Rightarrow\left\{ u\in W_{2}^{1}\left(a,b\right)\left|\left\Vert u\right\Vert _{L_{2}}=1\right.\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Задача Штурма-Лиувилля
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+Уравнением Штурма-Лиувилля
+\emph default
+ называется уравнеие вида
+\begin_inset Formula 
+\[
+-\left(p\left(x\right)u'\right)'+q\left(x\right)u=f\left(x\right),\qquad x\in\left[a,b\right],\,p\in C^{1}\left[a,b\right],\,q,f\in C\left[a,b\right],\,p\left(x\right)\geqslant\nu>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+Задачей Штурма-Лиувилля
+\emph default
+ называется краевая задача с условиями 
+\begin_inset Formula $u\left(a\right)=u_{a},u\left(b\right)=u_{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Мы будем решать эту задачу с условиями 
+\begin_inset Formula $u\left(a\right)=u\left(b\right)=0$
+\end_inset
+
+.
+ Понятно, как свести исходную задачу к этой.
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $u$
+\end_inset
+
+ - решение уравнения.
+ Домножим уравнение на 
+\begin_inset Formula $v\in C^{1}\left[a,b\right],\;v\left(a\right)=v\left(b\right)=0$
+\end_inset
+
+ и проинтегрируем от 
+\begin_inset Formula $a$
+\end_inset
+
+ до 
+\begin_inset Formula $b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{a}^{b}\left(\left(-pu'\right)'v+quv\right)\mathrm{d}x=\int_{a}^{b}fv\mathrm{d}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Возьмем левый интеграл по частям
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{a}^{b}\left(pu'v'+quv\right)\mathrm{d}x=\int_{a}^{b}fv\mathrm{d}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Это равенство будем называть интегральным тождеством
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $u$
+\end_inset
+
+ называется обобщенным решением уравнения Штурма-Лиувилля, если 
+\begin_inset Formula $u\in W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $\forall v\in C^{1}\left[a,b\right],\,v\left(a\right)=v\left(b\right)=0$
+\end_inset
+
+ выполнено интегральное тождество.
+\end_layout
+
+\begin_layout Theorem
+Если 
+\begin_inset Formula $u$
+\end_inset
+
+ - обобщенное решение, то она и есть настоящее решение.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\int_{a}^{b}\left(pu'v'+\left(qu-f\right)v\right)\mathrm{d}x=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Идем аналогично доказательству второй лемме вариационного, до момента использова
+ния непрерывности 
+\begin_inset Formula $pu'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $pu'\in L_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\forall v\in C_{1}^{\infty}\left(a,b\right)\,\int_{a}^{b}\left(pu'-c\right)v=0\Rightarrow pu'=c$
+\end_inset
+
+ почти везде.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\left(pu'\right)\left(x\right)=\int_{a}^{x}\left(qu-f\right)+const\Rightarrow pu'\in C^{1}\Rightarrow u'\in C^{1}\Rightarrow u\in C^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
+Чтобы ввести обобщенное решение задачи Штурма-Лиувилля, рассматриваем 
+\begin_inset Formula $u,v\in\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Вариационный метод построения обобщенного решения.
+\end_layout
+
+\begin_layout Standard
+Рассмотрим 
+\begin_inset Formula $\mathfrak{I}\left(u\right)=\int_{a}^{b}\left(\frac{1}{2}pu'^{2}+\frac{1}{2}qu^{2}-fu\right)\mathrm{dx}$
+\end_inset
+
+.
+ Его дифференциал 
+\begin_inset Formula $\int_{a}^{b}(pu'h'+(qu-f)h)\mathrm{dx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Свойства 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ слабо полунепрерывен снизу на 
+\begin_inset Formula $W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Если 
+\begin_inset Formula $q\geqslant0$
+\end_inset
+
+ то 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ коэрцитивен на 
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+, а если 
+\begin_inset Formula $q\cancel{\equiv}0\Rightarrow\mathfrak{I}\left(x\right)$
+\end_inset
+
+ коэрцитивен на 
+\begin_inset Formula $W_{2}^{1}\left(a,b\right)$
+\end_inset
+
+.
+ 
+\emph on
+Доказательство.
+ 
+\begin_inset Formula $\int_{a}^{b}\left(\frac{1}{2}pu'^{2}+\frac{1}{2}qu^{2}-fu\right)\geqslant\frac{\nu}{2}\int_{a}^{b}u'^{2}-\left\Vert f\right\Vert _{L_{2}}\left\Vert u\right\Vert _{L_{2}}\geqslant\frac{\nu}{2}\left\Vert u'\right\Vert _{L_{2}}^{2}-C\left\Vert u'\right\Vert _{L_{2}}\forall u\in\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В силу основной теоремы, функционал 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+, если 
+\begin_inset Formula $q\geqslant0$
+\end_inset
+
+, достигает минимума на 
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)\qquad\widehat{u}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Необходимое условие минимума 
+\begin_inset Formula 
+\[
+\forall v\in\mathring{W}_{2}^{1}\left(a,b\right)\qquad\mathrm{d}\mathfrak{I}\left(\widehat{u}\right)v=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Что означает, что выполнено интегральное тождество
+\begin_inset Formula 
+\[
+\int_{a}^{b}\left(p\widehat{u}'v'+\left(q\widehat{u}-f\right)v\right)\mathrm{dx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Следовательно 
+\begin_inset Formula $\widehat{u}$
+\end_inset
+
+ - обобщенное решение, следовательно 
+\begin_inset Formula $\widehat{u}$
+\end_inset
+
+ - настоящее решение.
+\end_layout
+
+\begin_layout Section
+Собственные числа и собственные функции для задачи Штурма-Лиувилля.
+\end_layout
+
+\begin_layout Standard
+П.Д.П.
+ Все скалярные произведения в 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $p\in C^{1},\,q\in C,\,p\left(x\right)\geq\nu>0,\;$
+\end_inset
+
+
+\begin_inset Formula $Lu\coloneqq-\left(pu'\right)'+qu$
+\end_inset
+
+, на 
+\begin_inset Formula $D\left(L\right)\coloneqq\left\{ u\in C^{2}\left[a,b\right]\left|u\left(a\right)=u\left(b\right)=0\right.\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+Рассмотрим
+\begin_inset Formula 
+\[
+\left\{ \begin{array}{l}
+Lu=\lambda u\\
+u\in D\left(L\right)
+\end{array}\right.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+Если система имеет нетривиальное решение, то 
+\begin_inset Formula $u$
+\end_inset
+
+ - 
+\emph on
+собственная функция задачи Штурма-Лиувилля
+\emph default
+, а 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ - 
+\emph on
+собственное число задачи Штурма-Лиувилля
+\emph default
+.
+\end_layout
+
+\begin_layout Remark
+Вообще говоря функции 
+\begin_inset Formula $u$
+\end_inset
+
+ и числа 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ могут быть комплексные.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset Formula $u,v\in D\left(L\right)\Rightarrow\int_{a}^{b}Lu\overline{v}=\int_{a}^{b}uL\overline{v}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Corollary
+\begin_inset Formula $\left(Lu,v\right)_{L_{2}}=\left(u,Lv\right)_{L_{2}}$
+\end_inset
+
+.
+ То есть оператор 
+\begin_inset Formula $L$
+\end_inset
+
+ симметричен в своей области определения.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset Formula $\lambda\in\mathbb{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\underset{\overset{\parallel}{\lambda\left(u,u\right)}}{\left(\lambda u,u\right)}=\left(Lu,u\right)=\left(u,Lu\right)=\underset{\overset{\parallel}{\overline{\lambda}\left(u,u\right)}}{\left(u,\lambda u\right)}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proposition
+\begin_inset Formula $Lu=\lambda u,\;Lv=\mu v\Rightarrow\left(u,v\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\lambda\left(u,v\right)=\left(Lu,v\right)=\left(v,Lu\right)=\mu\left(u,v\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proposition
+Собственные функции можно выбрать вещественными.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $Lu=\lambda u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $L\overline{u}=\overline{Lu}=\overline{\lambda u}=\lambda\overline{u}$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula $\overline{u}$
+\end_inset
+
+ - тоже собственная функция, с тем же собственным числом.
+ Значит
+\end_layout
+
+\begin_layout Proof
+1) 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $\overline{u}$
+\end_inset
+
+ линейно зависимы, тогда 
+\begin_inset Formula $Re\left(u\right)=\frac{u+\overline{u}}{2}$
+\end_inset
+
+ или 
+\begin_inset Formula $Im\left(u\right)=\frac{u-\overline{u}}{2}$
+\end_inset
+
+ не ноль, но это тоже будет собственной функцией, как линейная комбинация
+ 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $\overline{u}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+2) 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $\overline{u}$
+\end_inset
+
+ линейно независимы.
+ Аналогично.
+\end_layout
+
+\begin_layout Proposition
+Каждое собственное число имеет кратность 
+\begin_inset Formula $1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Пусть 
+\begin_inset Formula $Lu=\lambda u$
+\end_inset
+
+ и 
+\begin_inset Formula $Lv=\lambda v$
+\end_inset
+
+, 
+\begin_inset Formula $u,v\in D\left(L\right)$
+\end_inset
+
+, 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $v$
+\end_inset
+
+ линейно независимы.
+\end_layout
+
+\begin_layout Proof
+Так как мы имеем линейно дифференциальное уравнение второго порядка.
+ Значит у него два линейно независимых решения, а это означает, что 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $v$
+\end_inset
+
+ составляют фундаментальную сиситему решений.
+ То есть любое решение уравнения - это линейная комбинация 
+\begin_inset Formula $u$
+\end_inset
+
+ и 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ Тогда любое решение дифференциального уравнения обращается в 
+\begin_inset Formula $0$
+\end_inset
+
+ в точке 
+\begin_inset Formula $a$
+\end_inset
+
+, что противоречит теореме Коши.
+\end_layout
+
+\begin_layout Proposition
+Если 
+\begin_inset Formula $q\geqslant0\Rightarrow\lambda>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\lambda\left(u,u\right)=\left(Lu,u\right)=\int_{a}^{b}pu'^{2}+qu^{2}\geqslant\nu\int_{a}^{b}u'^{2}>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Предложение 4.9.а.
+ 
+\series default
+\emph on
+Если 
+\begin_inset Formula $q\geqslant-M\Rightarrow\lambda>-M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Прибавим к обоим частям 
+\begin_inset Formula $M$
+\end_inset
+
+, дальше аналогично.
+\end_layout
+
+\begin_layout Subsection*
+Вариационный метод построения собственных чисел и собственных функций.
+\end_layout
+
+\begin_layout Standard
+Рассмотрим 
+\begin_inset Formula $\mathfrak{I}\left(u\right)=\int_{a}^{b}\left(pu'^{2}+qu^{2}\right)\mathrm{dx}$
+\end_inset
+
+ и 
+\begin_inset Formula $\mathfrak{I}_{1}\left(u\right)=\int_{a}^{b}u^{2}\mathrm{dx}$
+\end_inset
+
+ на 
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ слабо полунепрерывен снизу на 
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $q\geqslant0\Rightarrow\mathfrak{I}\left(u\right)$
+\end_inset
+
+ коэрцитивен на 
+\begin_inset Formula $\mathring{W}_{2}^{1}\left(a,b\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Положим 
+\begin_inset Formula $q\geqslant0$
+\end_inset
+
+ в силу предложения 4.9.а.
+\end_layout
+
+\begin_layout Standard
+Будем минимизировать функционал 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ на множестве, где 
+\begin_inset Formula $\mathfrak{I}_{1}\left(u\right)=1$
+\end_inset
+
+.(Оно слабо замкнуто).
+ Значит по основной теореме 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ достигает наименьшего значения на этом множестве.
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ - минимизирующая функция, тогда она должна удовлетворять необходимому условию
+ экстремума.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\exists\lambda_{1},\forall h\in\mathring{W}_{2}^{1}\left(a,b\right):\qquad\mathrm{d}\mathfrak{I}\left(u_{1}\right)h=\lambda\mathrm{d}\mathfrak{I}_{1}\left(u_{1}\right)h
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\cancel{2}\int_{a}^{b}\left(pu_{1}'h'+qu_{1}h\right)\mathrm{dx}=\cancel{2}\lambda_{1}\int_{a}^{b}u_{1}h\mathrm{dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Это определение обобщенного решения
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\left(pu'_{1}\right)'+qu_{1}=\lambda_{1}u_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оказалось, что минимизирующая функция - это собственная функция, а множитель
+ Лагранжа - это собственное число.
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $h=u_{1}$
+\end_inset
+
+, то 
+\begin_inset Formula $\mathfrak{I}\left(u_{1}\right)=\lambda_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Попробуем найти еще собственные числа.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathfrak{I}\left(u\right)\rightarrow min$
+\end_inset
+
+, 
+\begin_inset Formula $\mathfrak{I}_{1}\left(u\right)=1$
+\end_inset
+
+, 
+\begin_inset Formula $\mathfrak{I}_{2}\left(u\right)=\int_{a}^{b}uu_{1}\mathrm{dx}=0$
+\end_inset
+
+.
+ Это слабо замкнутое множество, то, по основной теореме, минимум достигается.
+ 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+ - минимизирующая функция.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathrm{\exists\lambda_{2},\mu,\forall h\in\mathring{W}_{2}^{1}:\qquad d}\mathfrak{I}\left(u_{2}\right)h=\lambda_{2}\mathrm{d}\mathfrak{I}_{1}\left(u_{2}\right)h+\mu\mathrm{d}\mathfrak{I}_{2}\left(u_{2}\right)h
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2\int_{a}^{b}\left(pu'_{2}h'+qu_{2}h\right)\mathrm{dx}=2\lambda_{2}\int_{a}^{b}u_{2}h\mathrm{dx}+\mu\int_{a}^{b}u_{1}h\mathrm{dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $h=u_{1}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2\underset{\overset{\parallel}{\underset{\overset{\parallel}{0}}{\lambda_{1}\int_{a}^{b}u_{1}u_{2}\mathrm{dx}}}}{\int_{a}^{b}\left(pu'_{2}u'_{1}+qu_{2}u_{1}\right)\mathrm{dx}}=2\lambda_{2}\underset{\overset{\parallel}{0}}{\int_{a}^{b}u_{2}u_{1}\mathrm{dx}}+\mu\int_{a}^{b}u_{1}^{2}\mathrm{dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Следовательно 
+\begin_inset Formula $\mu=0$
+\end_inset
+
+.
+ Тогда
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\cancel{2}\int_{a}^{b}\left(pu'_{2}h'+qu_{2}h\right)\mathrm{dx}=\cancel{2}\lambda\int_{a}^{b}u_{2}h\mathrm{dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Что является интегральным тождеством для 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+.
+ Поэтому 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+ - это обобщенное решение уравнения, а значит и классическое, то 
+\begin_inset Formula $Lu_{2}=\lambda_{2}u_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Дальше аналогично.
+\end_layout
+
+\begin_layout Standard
+Получим 
+\begin_inset Formula $0<\lambda_{1}<\lambda_{2}<\lambda_{3}<\dots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+И собственные функции 
+\begin_inset Formula $u_{1},\,u_{2}\,u_{3},\,\dots$
+\end_inset
+
+ такие, что 
+\begin_inset Formula $\left(u_{i},u_{j}\right)=\delta_{ij}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $\lambda_{k}\rightarrow+\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Пусть не верно, тогда они ограниченны 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda_{k}$
+\end_inset
+
+ - значение функционала на 
+\begin_inset Formula $u_{k}$
+\end_inset
+
+, тогда
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula 
+\[
+A\geqslant\int_{a}^{b}\left(pu_{k}^{,2}+qu_{k}^{2}\right)\geqslant\nu\int_{a}^{b}u_{k}^{,2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Значит последовательность 
+\begin_inset Formula $u_{k}$
+\end_inset
+
+ ограниченна по норме в 
+\begin_inset Formula $\mathring{W}_{2}^{1}$
+\end_inset
+
+.
+ Значит 
+\begin_inset Formula $\exists u_{k_{l}}\rightrightarrows\widehat{u}$
+\end_inset
+
+, что невозможно, так как 
+\begin_inset Formula $u_{k_{l}}$
+\end_inset
+
+ ортонормированны.
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $\left[u,v\right]\coloneqq\int_{a}^{b}\left(pu'v'+quv\right)\mathrm{dx}$
+\end_inset
+
+ - скалярное произведение.
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $\nu\left\Vert u\right\Vert _{\mathring{W}_{2}^{1}}^{2}\leqslant\left[u,u\right]\leqslant C\int_{a}^{b}\left(u'^{2}+u^{2}\right)=C\left\Vert u\right\Vert _{W_{2}^{1}}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+Это скалярное произведение называется 
+\emph on
+энергетическим скалярным произведением задачи Штурма-Лиувилля
+\emph default
+.
+\end_layout
+
+\begin_layout Definition
+\begin_inset Formula $\mathcal{H}_{L}=\left(\mathring{W}_{2}^{1}\left(a,b\right),\left[-,-\right]\right)$
+\end_inset
+
+ - гильбертово пространство.
+\end_layout
+
+\begin_layout Standard
+Перепишем основное интегральное тождество
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[u_{k},h\right]=\lambda_{k}\left(u_{k},h\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Возьмем 
+\begin_inset Formula $h=u_{l},l\neq k$
+\end_inset
+
+.
+ Получим 
+\begin_inset Formula $\left[u_{k},u_{l}\right]=0,$
+\end_inset
+
+то собственные функции ортогональны и в смысле энергетического скалярного
+ произведения.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset Formula $u_{k}$
+\end_inset
+
+ образуют полную ортогональную систему в 
+\begin_inset Formula $\mathcal{H}_{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Пусть это не так.
+ Рассмотрим
+\begin_inset Formula 
+\[
+M=\left\{ u\in\mathcal{H}_{L}\left|\forall u_{k}:\left[u,u_{k}\right]=0\right.\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $M$
+\end_inset
+
+ - замкнутое подпространство, значит оно слабо замкнуто.
+\end_layout
+
+\begin_layout Proof
+Рассмотрим задачу о минимизации функциона 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ на множестве 
+\begin_inset Formula $M$
+\end_inset
+
+ при условии 
+\begin_inset Formula $\int_{a}^{b}u^{2}=1$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\widehat{u}$
+\end_inset
+
+ - минимизирующая функция.
+\end_layout
+
+\begin_layout Proof
+Так как ортогональность собстенным функциям в смысле энергетического скалярного
+ произведения равносильна ортогональности собственным функциям в 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+, получили, что 
+\begin_inset Formula $M$
+\end_inset
+
+ лежит во всех множествах, на которых мы минимизировали 
+\begin_inset Formula $\mathfrak{I}\left(u\right)$
+\end_inset
+
+ ранее, то этот минимум должен быть больше всех 
+\begin_inset Formula $\lambda_{k}$
+\end_inset
+
+.
+ Противоречие.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset Formula $\left\{ u_{k}\right\} $
+\end_inset
+
+ - полная ортонормированная система в 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
